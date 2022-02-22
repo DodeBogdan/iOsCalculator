@@ -275,7 +275,11 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
+<<<<<<< HEAD
                         <outlet property="displayedTextLabel" destination="tdf-As-LvN" id="6dv-YC-LnH"/>
+=======
+                        <outlet property="displayedTestLabel" destination="tdf-As-LvN" id="6dv-YC-LnH"/>
+>>>>>>> e31fe67f47e8257a2d70cf580a4253eabf2cadde
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
