@@ -12,6 +12,11 @@ class ViewController: UIViewController {
     //This is the UI var related for the displayed value
     @IBOutlet weak var displayedTextLabel: UILabel!
     
+    @IBAction func buttonActioner(_ sender: UIButton) {
+        let currentValue:String = sender.currentTitle!
+        
+        displayValue(value: currentValue)
+    }
     //This is the var responsible for currentTextView
     var currentTextThatShouldBeDisplayed:String = ""
     
@@ -186,6 +191,7 @@ class ViewController: UIViewController {
                 currentTextThatShouldBeDisplayed = calculateValue(firstValue: currentTextThatShouldBeDisplayed, secondValue: lastTextView)
             
                 lastTextView = ""
+                lastPressedSign = "="
                 break
             //case when value is -/+
             case "+/-":
